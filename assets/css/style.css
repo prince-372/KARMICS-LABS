@@ -121,8 +121,8 @@ nav ul li a:hover::before {
     color: #FFF;
     background-color: #FFF;
     position: absolute;
-    top: 48%;
-    right: 67%;
+    top: 62%;
+    right: 71%;
 }
 .web-line::after {
     content: '';
@@ -132,8 +132,8 @@ nav ul li a:hover::before {
     color: #FFF;
     background-color: #FFF;
     position: absolute;
-    top: 55%;
-    left: 20%;
+    top: 71%;
+    left: 14%;
 }
 /* 1st section */
 .f-card {
