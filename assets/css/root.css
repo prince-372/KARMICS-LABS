@@ -1,0 +1,161 @@
+:root{
+ /* font size */
+ --fs-16:16px;
+ --fs-20:20px;
+ --fs-35:35px;
+ --fs-56:56px;
+ --fs-64:64px;
+ --fs-35:35px;
+
+ /* font waight */
+--fw-300:300;
+--fw-400:400;
+--fw-500:500;
+--fw-700:700;
+
+/* color */
+--text-white:#fff;
+--text-black:#040404;
+--text-lightwhite:#ffffff;
+--text-gray:#B4B4B4;
+
+/* background color */
+--bg-white:#fff;
+--bg-black:#040404;
+}
+/* header */
+.f-nav-li{
+   font-size: var(--fs-16);
+   font-weight: var(--fw-500);
+   color: var(--text-white);
+}
+.f-card-name{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--text-white);
+}
+.f-card-number{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--text-white);
+}
+.f-card-desciption{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-300);
+    color: var(--text-white);
+}
+
+.btn-nav-connect{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-700);
+    color: var(--text-white);
+    background-color: var(--bg-black);
+}
+.btn-nav-connect:hover{
+    color: var(--text-black);
+    background-color: var(--bg-white);
+}
+.btn-nav-get{
+      font-size: var(--fs-16);
+      font-weight: var(--fw-700);
+      color: var(--text-white);
+      background-color: var(--bg-black);
+}
+.btn-nav-get:hover{
+    color: var(--text-black);
+    background-color: var(--bg-white);
+}
+.btn-nav-read{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-300);
+    color: var(--bg-white);
+    background-color: var(--bg-black);
+}
+.btn-nav-read:hover{
+    color: var(--bg-black);
+    background-color: var(--bg-white);
+}
+.f-main{
+    font-size: var(--fs-64);
+    font-weight: var(--fw-300);
+    color: var(--text-white);
+}
+.f-main-small{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color:var(--text-lightwhite);
+}
+.arrow{
+    color: var(--text-white);
+}
+/* 1st section */
+.f-head{
+    font-size: var(--fs-56);
+    font-weight: var(--fw-300);
+    color: var(--text-white);
+}
+.btn-view{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-white);
+    background-color: var(--bg-black);
+}
+.btn-view:hover{
+    color: var(--text-black);
+    background-color: var(--bg-white);
+}
+/* 2nd section */
+.f-card-smart{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-700);
+    color: var(--text-white);
+}
+.f-card-libero{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-gray);
+}
+/* 3rd section */
+.f-head-project{
+    font-size: var(--fs-56);
+    font-weight: var(--fw-300);
+    color: var(--text-black);
+}
+.f-sec-massa{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-black);
+}
+.f-tokyo{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-700);
+    color: #fff;
+}
+.btn-view-project{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--text-black);
+    background-color: var(--bg-white);
+}
+.btn-view-project:hover{
+    color: var(--text-white);
+    background-color: var(--bg-black);
+}
+/* footer */
+.f-footer-eros{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-white);
+}
+.f-footer-end{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--text-gray);
+}
+@media (max-width:576px) {
+    .f-main{
+        font-size: var(--fs-35);
+        font-weight: var(--fw-300);
+        color: var(--text-white);
+    }
+}
