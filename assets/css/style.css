@@ -6,7 +6,7 @@
     list-style-type: none;
     text-decoration: none !important;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    transition: all linear 300ms;
 }
 .ff{
     font-family: 'Space Grotesk', sans-serif;
@@ -45,9 +45,7 @@ font-family: 'Sunflower', sans-serif;
     border: 1px solid white;
     transition: .3s;
 }
-.arrow>svg path {
-    fill: #fff;
-}
+
 .btn-nav-get:hover .arrow>svg path {
     fill: black;
     transition: .3s;
@@ -65,6 +63,9 @@ font-family: 'Sunflower', sans-serif;
 }
 .pt-15 {
     padding-top: 15px;
+}
+.pb-117{
+    padding-bottom: 117px;
 }
 .nav-card {
     border-radius: 12px;
@@ -121,8 +122,8 @@ nav ul li a:hover::before {
     color: #FFF;
     background-color: #FFF;
     position: absolute;
-    top: 62%;
-    right: 71%;
+    top: 81%;
+    right: 44%;
 }
 .web-line::after {
     content: '';
@@ -132,8 +133,8 @@ nav ul li a:hover::before {
     color: #FFF;
     background-color: #FFF;
     position: absolute;
-    top: 71%;
-    left: 14%;
+    top: 97%;
+    left: 25%;
 }
 /* 1st section */
 .f-card {
@@ -144,7 +145,6 @@ nav ul li a:hover::before {
     backdrop-filter: blur(15px);
     padding: 16px;
     gap: 15px;
-    max-width: 270px;
 }
 .btn-view {
     border-radius: 82px;
@@ -184,7 +184,7 @@ nav ul li a:hover::before {
     flex-shrink: 0;
     position: absolute;
     top: 90%;
-    right: -6%;
+    right: 3%;
 }
 /* 2nd section */
 .j-card {
@@ -222,7 +222,7 @@ nav ul li a:hover::before {
     color: #FFF;
     background-color: #FFF;
     position: absolute;
-    top: 26%;
+    top: 27%;
     left: 34%;
 }
 .moon-circle {
@@ -258,6 +258,10 @@ nav ul li a:hover::before {
     top: 90%;
     left: -16%;
 }
+p {
+   
+    margin-bottom: unset !important;
+}
 /* 3rd section */
 .f-sec-img {
     background-image: url(../image/white.png);
@@ -277,7 +281,7 @@ nav ul li a:hover::before {
     color: #000;
     background-color: #000;
     position: absolute;
-    top: 28%;
+    top: 14%;
 }
 .line-3::after {
     content: '';
@@ -287,7 +291,7 @@ nav ul li a:hover::before {
     color: #000;
     background-color: #000;
     position: absolute;
-    top: 36%;
+    top: 22%;
     left: 34%;
 }
 .f-transperent {
@@ -300,6 +304,9 @@ nav ul li a:hover::before {
     flex-shrink: 0;
     position: absolute;
     top: 62%;
+    left: 0;
+    right: 0;
+    bottom: 0;
     display: none;
 }
 .project-img:hover+.f-transperent {
@@ -322,13 +329,25 @@ nav ul li a:hover::before {
     margin-bottom: 100px;
 }
 
-.pt-280 {
-    padding-top: 280px;
+.pt-123 {
+    padding-top: 123px;
 }
 .pt-20{
     padding-top: 20px;
 }
+.pt-53{
+    padding-top: 53px;
+}
 /* footer */
+.f-footer-img{
+    border-radius: 8px;
+    border: none; 
+}
+.f-footer-img:hover{
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: url(<path-to-image>), cover no-repeat;
+    box-shadow: 0px 4px 15px 0px rgba(255, 255, 255, 0.10);
+}
 .line-4::before {
     content: '';
     width: 300px;
@@ -380,7 +399,7 @@ nav ul li a:hover::before {
     flex-shrink: 0;
     position: absolute;
     top: 0;
-    right: -7%;
+    right: 1%;
 }
 @media (max-width:992px) {
     label[id="navicon"] {
@@ -494,4 +513,8 @@ nav ul li a:hover::before {
         top: 69%;
         display: none;
     }  
+    .pt-sm-78{
+        padding-top: 78px;
+    }
+
 }
