@@ -337,7 +337,7 @@ p {
     color: #000;
     background-color: #000;
     position: absolute;
-    top: 15%;
+    top: 6%;
     left: 40%;
     display: none;
 }
@@ -350,7 +350,7 @@ p {
     color: #000;
     background-color: #000;
     position: absolute;
-    top: 23%;
+    top: 15%;
     left: 34%;
     display: none;
 }
@@ -585,6 +585,9 @@ ul{
 
     .arrow-1 {
         display: flex;
+    }
+    .pt-lg-70{
+        padding-top: 70px;
     }
 }
 
